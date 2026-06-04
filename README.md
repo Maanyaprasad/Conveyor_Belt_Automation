@@ -3,9 +3,7 @@
 ## Week 5 Project
 
 This project focuses on creating a simple conveyor belt automation simulation using Blender and Python.
-
 The aim of the project is to model a basic industrial conveyor system in Blender and integrate it into a Python application using the Ursina Engine. The simulation will allow users to control the conveyor operation and observe the movement of boxes along the conveyor path.
-
 The project is intended to provide hands-on experience in combining 3D modeling with programming while understanding basic automation concepts.
 
 ## Planned Features
@@ -29,7 +27,7 @@ The project is intended to provide hands-on experience in combining 3D modeling 
 - Visual Studio Code
 - GitHub
 
-## Blender Assets Planned
+## Blender Assets
 
 ### Mechanical Models
 
@@ -44,8 +42,11 @@ The project is intended to provide hands-on experience in combining 3D modeling 
 - Created project repository and folder structure
 - Set up development environment
 - Installed required Python packages
-- Started planning conveyor system design
-- Researching conveyor movement workflow
+- Created initial conveyor belt prototype in Blender
+- Modeled conveyor rollers and transport box
+- Exported conveyor model in .glb format
+- Added project screenshots and assets to GitHub
+- Started planning conveyor movement workflow
 
 ## Project Goal
 
