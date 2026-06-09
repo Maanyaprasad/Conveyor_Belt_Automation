@@ -35,6 +35,7 @@ The project is intended to provide hands-on experience in combining 3D modeling 
 - Conveyor Rollers
 - Conveyor Belt
 - Transport Box
+- Box Housing / Entry Enclosure
 
 ## Current Progress
 
@@ -42,11 +43,13 @@ The project is intended to provide hands-on experience in combining 3D modeling 
 - Created project repository and folder structure
 - Set up development environment
 - Installed required Python packages
-- Created initial conveyor belt prototype in Blender
-- Modeled conveyor rollers and transport box
-- Exported conveyor model in .glb format
-- Added project screenshots and assets to GitHub
-- Started planning conveyor movement workflow
+- Created conveyor belt model in Blender
+- Added support frame and legs to the conveyor structure
+- Created transport box model
+- Created box housing/enclosure model
+- Exported Blender assets in .glb format
+- Added updated screenshots and project assets to GitHub
+- Started preparing models for Python integration using Ursina
 
 ## Project Goal
 
