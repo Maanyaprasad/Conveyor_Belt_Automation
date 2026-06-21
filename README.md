@@ -2,25 +2,23 @@
 
 ## Week 5 Project
 
-This project focuses on developing a simple conveyor belt automation simulation using Blender, Python, and the Ursina Engine.
+This project demonstrates a basic Conveyor Belt Automation Simulation developed using **Blender**, **Python**, and the **Ursina Engine**.
 
-The objective is to create a modular industrial conveyor system in Blender and integrate it into a Python desktop application. The simulation will demonstrate basic conveyor operation, object movement, and user controls for industrial automation.
+The objective of this project is to design a modular industrial conveyor system in Blender and integrate the 3D assets into a Python desktop application. The simulation demonstrates the basic workflow of conveyor automation with simple user controls and mechanical component integration.
 
-This project is a continuation of the previous Motor Control System project and extends the workflow to a conveyor belt automation application.
+---
 
+## Features
 
-## Project Objectives
+- Modular conveyor system modeled in Blender
+- Separate Blender assets exported in `.glb` format
+- Custom texture palette applied to all models
+- Python desktop application using Ursina Engine
+- Start and Stop controls
+- Speed control slider
+- Basic conveyor movement simulation
 
-- Design a conveyor belt system in Blender
-- Create modular mechanical components
-- Apply custom materials using a texture palette
-- Export Blender models in .glb format
-- Integrate Blender assets into Ursina Engine
-- Develop Python-based desktop application
-- Implement Start and Stop controls
-- Add conveyor speed control
-- Simulate conveyor belt movement
-- Simulate box transportation
+---
 
 ## Technologies Used
 
@@ -31,62 +29,85 @@ This project is a continuation of the previous Motor Control System project and 
 - Visual Studio Code
 - GitHub
 
+---
+
 ## Blender Assets
 
-The project currently contains the following modular Blender models:
+The project contains the following modular Blender models:
 
 - Conveyor Frame
 - Moving Conveyor Belt
 - Box Housing
 - Transport Box
 
-All models have been exported separately in **.glb** format for easier integration into the Python application.
+All models have been exported separately in `.glb` format for easier integration into the Python application.
 
+---
 
 ## Texture Workflow
 
 A custom texture palette was created using Microsoft Paint and applied to all Blender models.
 
-Color Scheme:
+### Color Scheme
 
 - Yellow – Conveyor Belt
-- Brown – Box Housing & Transport Box
+- Brown – Box Housing and Transport Box
 - Blue – Conveyor Frame
 
 This provides a simple and consistent appearance throughout the project.
 
+---
 
-## Current Progress
+## Current Implementation
 
-- Selected Week 5 project topic
-- Created project repository and folder structure
-- Configured Python development environment
-- Installed required Python packages
-- Designed conveyor frame in Blender
-- Modeled moving conveyor belt
-- Created transport box model
-- Created box housing model
+- Designed the conveyor system in Blender
+- Created modular mechanical components
 - Applied custom texture palette
-- Exported all Blender models separately in .glb format
-- Added project screenshots
-- Organized project assets
-- Prepared Blender models for Python integration
-- Uploaded project progress to GitHub
+- Exported Blender models in `.glb` format
+- Imported Blender models into the Ursina Engine
+- Implemented Start and Stop controls
+- Implemented adjustable speed control slider
+- Integrated basic conveyor movement workflow
+- Organized project assets and screenshots
+- Updated the GitHub repository with source files and documentation
 
+---
 
-## Upcoming Work
+## Project Structure
 
-- Import Blender models into Ursina Engine
-- Develop Python application interface
-- Add Start and Stop controls
-- Implement speed control slider
-- Animate conveyor belt movement
-- Simulate transport box movement
-- Perform testing and UI refinement
+```text
+Conveyor_Belt_Automation/
 
+│
+├── models/
+│   ├── Conveyor_frame.glb
+│   ├── Conveyor_moving_Belt.glb
+│   ├── Box_model.glb
+│   ├── Boxhousing_model.glb
+│   └── Texture_blend_color_pallette.png
+│
+├── screenshots/
+│
+├── app.py
+├── README.md
+└── requirements.txt
+```
+
+---
+
+## Future Improvements
+
+Future versions of the project may include:
+
+- Improved conveyor belt movement
+- Realistic box transportation
+- Multiple moving boxes
+- Sensor-based automation
+- Object detection
+- Enhanced industrial user interface
+
+---
 
 ## Project Goal
 
-To develop a simple industrial conveyor belt automation simulation by integrating Blender-created 3D models with Python programming using the Ursina Engine.
-
-The final application will demonstrate conveyor movement, transport box animation, adjustable speed control, and basic industrial automation concepts.
+The goal of this project is to demonstrate the integration of Blender-created 3D models with Python programming using the Ursina Engine while implementing the basic concepts of conveyor belt automation.
